@@ -1,0 +1,48 @@
+*{
+
+	padding:0 0 0 0;
+}
+/*-----------------
+course card---------*/
+.card-container
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+.card{
+	border:solid 5px black;
+	overflow:hidden;
+	width:30%;
+	padding:0 10px 0 10px;
+	background-image:gray;
+}
+.card-image
+{
+	height:250px;
+	padding:10px 10px 0 10px;
+	border-radius:5px;
+}
+.card-image>img{
+	width:101%;
+	height:220px;
+}
+.card-content{
+	text-transform:capitalize;
+	padding-left:20px;
+}
+.card-content>h3{
+	color:red;
+}
+.card-content>p{
+	color:green;
+	font-style:italic;
+}
+a{
+	display:inline-block;
+	border-radius:5px;
+	color:white;
+	background-color:black;
+	margin-bottom:10px;
+	padding:5px 5px 5px 5px;
+	text-decoration:none;
+}
